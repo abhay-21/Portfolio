@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Jaiswal - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Abhay Jaiswal</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Background" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image-wrapper">
+                    <!-- 
+                    TO ADD YOUR LINKEDIN PROFILE PHOTO:
+                    1. Go to https://www.linkedin.com/in/abhayjaiswal21/
+                    2. Right-click on your profile photo
+                    3. Select "Copy image address" or "Copy image URL"
+                    4. Paste the URL below replacing the placeholder URL
+                    The URL should look like: https://media.licdn.com/dms/image/...
+                    -->
+                    <img id="linkedin-profile-img" 
+                         src="https://media.licdn.com/dms/image/D5603AQFqJYqJqJqJqJ/profile-displayphoto-shrink_400_400/0/1234567890?e=1735689600&v=beta&t=abc123" 
+                         alt="Abhay Jaiswal" class="hero-profile-img"
+                         onerror="this.onerror=null; this.src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400';">
+                    <div class="profile-ring"></div>
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Abhay Jaiswal</span></h1>
+                <p class="hero-subtitle">Data Science Enthusiast | Machine Learning Practitioner | Problem Solver</p>
+                <p class="hero-description">
+                    Passionate about transforming data into actionable insights and building intelligent systems 
+                    that solve real-world challenges. Currently pursuing B.Tech in Computer Science with expertise 
+                    in Python, Machine Learning, and Data Analytics.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="4">0</div>
+                        <div class="stat-label">Certificates</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Skills</div>
+                    </div>
+                </div>
+                <div class="hero-links">
+                    <a href="https://linkedin.com/in/abhayjaiswal21" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/abhay-21" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:abhayy1021@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                    <a href="tel:+917999984422" class="social-link">
+                        <i class="fas fa-phone"></i> +91-7999984422
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Data Science" class="about-img">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a Computer Science Engineering student at Lovely Professional University with a passion for 
+                            Data Science and Machine Learning. I enjoy transforming raw data into meaningful insights and 
+                            building predictive models that solve real-world problems.
+                        </p>
+                        <p>
+                            With hands-on experience in Python, data analysis, and machine learning, I'm always eager to learn 
+                            and apply new technologies. My journey in data science has been driven by curiosity and a desire to 
+                            make data-driven decisions that create value.
+                        </p>
+                        <p>
+                            I specialize in data preprocessing, exploratory data analysis, feature engineering, and building 
+                            machine learning models. My projects demonstrate my ability to work with real-world datasets, 
+                            handle complex data challenges, and create visualizations that tell compelling stories.
+                        </p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Data Analysis</h4>
+                            <p>Expert in analyzing complex datasets and extracting meaningful patterns</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-brain"></i>
+                            <h4>Machine Learning</h4>
+                            <p>Building predictive models using supervised and unsupervised techniques</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-database"></i>
+                            <h4>Data Visualization</h4>
+                            <p>Creating insightful dashboards and visualizations using Power BI and Python</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Google Colab</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Core CS Fundamentals</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">DBMS</span>
+                        <span class="skill-tag">OS</span>
+                        <span class="skill-tag">CN</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">OOPs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-user"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Problem-Solving</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Quick Learner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800" alt="House Price Prediction" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://github.com/abhay-21" target="_blank" class="project-overlay-link">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Bengaluru House Price Prediction</h3>
+                            <span class="project-date">Jun' 25 – Jul' 25</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/abhay-21" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                        <ul class="project-description">
+                            <li>Developed a machine-learning model to predict Bengaluru house prices by analyzing real-estate trends, studying location influence, property features, and pricing variations across different localities.</li>
+                            <li>Performed extensive data cleaning, handled missing values, engineered features, and treated outliers to ensure consistent datasets and significantly improve model accuracy.</li>
+                            <li>Explored major features like total square feet, bedrooms, and bathrooms using statistical analysis and visual exploration to understand their impact on housing prices.</li>
+                            <li>Created insightful dashboards and charts to visualize model predictions and feature effects, helping clearly interpret model behavior and highlight key findings.</li>
+                            <li>Implemented multiple regression algorithms including Linear Regression, Random Forest, and Gradient Boosting, achieving high prediction accuracy.</li>
+                            <li>Conducted feature importance analysis to identify the most significant factors affecting house prices in different areas of Bengaluru.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                            <span class="tech-tag">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Data Science Jobs" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://github.com/abhay-21" target="_blank" class="project-overlay-link">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Data Science Jobs in India</h3>
+                            <span class="project-date">Mar' 25 – Apr' 25</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/abhay-21" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                        <ul class="project-description">
+                            <li>Built an interactive Excel dashboard to analyze demand, salary trends, and hiring patterns for data science roles in India, providing insights into top-paying roles and emerging skill requirements.</li>
+                            <li>Processed job-related data using pivot tables and advanced Excel operations to uncover trends, generate summaries, and prepare clean, structured data for visualization.</li>
+                            <li>Designed multiple visualizations including waterfall, combo, pie, line, and bar charts to present insights clearly and highlight salary ranges, job roles, and industry patterns.</li>
+                            <li>Added KPIs, slicers, and interactive filters to make the dashboard dynamic and user-friendly, enabling decision-makers to explore and compare job insights effortlessly.</li>
+                            <li>Analyzed over 10,000 job postings to identify key trends in the Indian data science market, including location-based salary variations and skill demand patterns.</li>
+                            <li>Created comprehensive reports highlighting the most in-demand skills, experience requirements, and career growth opportunities in the data science field.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Microsoft Excel</span>
+                            <span class="tech-tag">Pivot Tables</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">KPI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="training" class="training">
+        <div class="container">
+            <h2 class="section-title">Training & Professional Development</h2>
+            <div class="training-wrapper">
+                <div class="training-image">
+                    <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Data Science Training" class="training-img">
+                </div>
+                <div class="training-card">
+                    <div class="training-header">
+                        <h3>From Data to Decisions: A Hands-On Approach to Data Science</h3>
+                        <span class="training-date">Jun' 25 – Jul' 25</span>
+                    </div>
+                    <ul class="training-description">
+                        <li>Completed an intensive data science training program covering SQL, Excel analytics, Power BI dashboards, Python programming, and both supervised & unsupervised machine learning techniques.</li>
+                        <li>Gained practical experience in data preprocessing, EDA, visualization, feature engineering, and using tools like Jupyter Notebook, Power BI, and advanced Excel to analyze real-world datasets.</li>
+                        <li>Worked through weekly modules including SQL operations, Excel pivoting and charts, Power BI reporting, Python core libraries, and ML algorithms, strengthening end-to-end data analysis skills.</li>
+                        <li>Completed hands-on projects involving real-world datasets, applying various machine learning algorithms including regression, classification, and clustering techniques.</li>
+                        <li>Learned advanced data manipulation techniques, statistical analysis methods, and best practices for building production-ready data science solutions.</li>
+                        <li>Participated in collaborative projects and peer reviews, enhancing teamwork and communication skills in a data science context.</li>
+                    </ul>
+                    <div class="training-achievements">
+                        <div class="achievement-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>Completed 8 comprehensive modules</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Built 5+ real-world projects</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Earned certification with distinction</span>
+                        </div>
+                    </div>
+                    <div class="training-tech">
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Microsoft Excel</span>
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Matplotlib</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="cert-image">
+                        <img src="https://images.pexels.com/photos/3184302/pexels-photo-3184302.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Certificate" class="cert-img">
+                    </div>
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h3>From Data to Decisions: A Hands on Approach to Data Science - LPU</h3>
+                    <p class="cert-date">Jul' 25</p>
+                    <p class="cert-description">Comprehensive data science program covering SQL, Excel, Power BI, Python, and Machine Learning</p>
+                    <a href="#" target="_blank" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="certificate-card">
+                    <div class="cert-image">
+                        <img src="https://images.pexels.com/photos/3184303/pexels-photo-3184303.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Certificate" class="cert-img">
+                    </div>
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h3>Mastering in C: Basic to Beyond – CSE Pathshala</h3>
+                    <p class="cert-date">Mar' 24</p>
+                    <p class="cert-description">Advanced C programming concepts, data structures, and algorithm implementation</p>
+                    <a href="#" target="_blank" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="certificate-card">
+                    <div class="cert-image">
+                        <img src="https://images.pexels.com/photos/3184304/pexels-photo-3184304.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Certificate" class="cert-img">
+                    </div>
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h3>Computational Theory: Language Principle & Finite Automata Theory - Infosys Springboard</h3>
+                    <p class="cert-date">Aug' 25</p>
+                    <p class="cert-description">Theoretical foundations of computer science, automata theory, and formal languages</p>
+                    <a href="#" target="_blank" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="certificate-card">
+                    <div class="cert-image">
+                        <img src="https://images.pexels.com/photos/3184305/pexels-photo-3184305.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Certificate" class="cert-img">
+                    </div>
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h3>ChatGPT-4 Prompt Engineering: ChatGPT, Generative AI & LLM – Infosys Springboard</h3>
+                    <p class="cert-date">Aug' 25</p>
+                    <p class="cert-description">Advanced prompt engineering techniques and applications of Large Language Models</p>
+                    <a href="#" target="_blank" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-image">
+                            <img src="https://images.pexels.com/photos/3184307/pexels-photo-3184307.jpeg?auto=compress&cs=tinysrgb&w=600" alt="University" class="edu-img">
+                        </div>
+                        <h3>Bachelor of Technology - Computer Science and Engineering</h3>
+                        <p class="education-institution">Lovely Professional University, Phagwara, Punjab</p>
+                        <p class="education-details">CGPA: 7.04 | Aug' 23 - Present</p>
+                        <div class="education-courses">
+                            <h4>Key Courses:</h4>
+                            <div class="course-tags">
+                                <span class="course-tag">Data Structures & Algorithms</span>
+                                <span class="course-tag">Database Management Systems</span>
+                                <span class="course-tag">Operating Systems</span>
+                                <span class="course-tag">Computer Networks</span>
+                                <span class="course-tag">Machine Learning</span>
+                                <span class="course-tag">Software Engineering</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-image">
+                            <img src="https://images.pexels.com/photos/3184308/pexels-photo-3184308.jpeg?auto=compress&cs=tinysrgb&w=600" alt="School" class="edu-img">
+                        </div>
+                        <h3>Intermediate</h3>
+                        <p class="education-institution">Indus Public School, Korba, Chhattisgarh</p>
+                        <p class="education-details">Percentage: 71.6% | Apr' 22 - Mar' 23</p>
+                        <p class="education-achievement">Completed with focus on Science and Mathematics, laying strong foundation for engineering studies.</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-image">
+                            <img src="https://images.pexels.com/photos/3184309/pexels-photo-3184309.jpeg?auto=compress&cs=tinysrgb&w=600" alt="School" class="edu-img">
+                        </div>
+                        <h3>Matriculation</h3>
+                        <p class="education-institution">Indus Public School, Korba, Chhattisgarh</p>
+                        <p class="education-details">Percentage: 96.6% | Apr' 20 - Mar' 21</p>
+                        <p class="education-achievement">Achieved outstanding academic performance, ranking among top students in the school.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Abhay Jaiswal. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/abhayjaiswal21" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/abhay-21" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:abhayy1021@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
