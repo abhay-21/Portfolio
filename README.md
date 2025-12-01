@@ -106,21 +106,13 @@ Edit `styles.css` and modify the CSS variables in the `:root` selector:
    - Drag and drop your portfolio folder to https://netlify.com or https://vercel.com
    - Get instant live URL!
 
-📖 **Detailed deployment instructions:** See [DEPLOYMENT.md](DEPLOYMENT.md)
-
-### Your Portfolio Link Format:
-```
-https://yourusername.github.io/portfolio/
-```
-Add this link to your CV/Resume!
-
 ## Contact
 
 - **Email:** abhayy1021@gmail.com
-- **LinkedIn:** [linkedin.com/in/abhayjaiswal21](https://linkedin.com/in/abhayjaiswal21)
-- **GitHub:** [github.com/abhay-21](https://github.com/abhay-21)
+- **LinkedIn:** https://linkedin.com/in/abhayjaiswal21
+- **GitHub:** https://github.com/abhay-21
 - **Phone:** +91-7999984422
-- **Portfolio:** [Add your live portfolio link here after deployment]
+- **Portfolio:** https://abhay-21.github.io/Portfolio/
 
 ## License
 
@@ -129,4 +121,5 @@ This project is open source and available for personal use.
 ---
 
 Made with ❤️ by Abhay Jaiswal
+
 
